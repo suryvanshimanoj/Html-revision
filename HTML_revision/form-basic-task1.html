@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-basic-task1</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Form_Task1</legend>
+        <form action="" method="post">
+            <label for="fn">Fname:</label>
+            <input type="text" id="fn" placeholder="Fname" required> &nbsp; &nbsp;
+
+            <label for="ln">Lname:</label>
+            <input type="text" id="ln" placeholder="Lname" required> &nbsp; &nbsp;
+
+            <label for="">Email:</label>
+            <input type="email" placeholder="Email" required>&nbsp; &nbsp;
+
+            <label for="pwd">Password:</label>
+            <input type="password" placeholder="password" min="5" max="10" required> &nbsp; &nbsp;
+
+            <label for="m">Mobile no:</label>
+            <input type="text" placeholder="Mobile" max="15" required> &nbsp; &nbsp;
+
+            <br><br>
+            <label for="">Address:</label>
+            <textarea name="Address" id="" cols="15" rows="3" placeholder="text here"></textarea>&nbsp; &nbsp;
+
+            <label for="g">Gender:</label>
+           Male <input type="radio" name="g" id="g" value="Male" >
+           Female <input type="radio" name="g" id="g" value="female"> &nbsp; &nbsp;
+
+           <label for="lug">Language:</label>
+           Hindi <input type="checkbox" name="lug" id="lug" value="hindi" checked>
+           English <input type="checkbox" name="lug" id="lug" value="eng">
+           Other <input type="checkbox" name="lug" id="lug" value="oth"> &nbsp; &nbsp;
+
+           <label for="">State:</label>
+           <select name="State" id="">
+            <option value="" selected disabled> Select State</option>
+            <option value="delhi">Delhi</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="punjab">Punjab</option>
+            <option value="mp">Madhay pradesh</option>
+           </select>&nbsp; &nbsp;
+
+           <label for="">Range:</label>
+           <input type="range" name="" id=""> &nbsp; &nbsp;  <br> <br>
+
+
+           Upload file: 
+           <input type="file" name="" id="">
+
+           <label for="d">date of Birth:</label>
+           <input type="date" id="d"> &nbsp; &nbsp;
+
+           <label for="">Date/Time:</label>
+           <input type="datetime-local">
+
+           &nbsp; &nbsp; &nbsp; &nbsp;
+
+           <input type="submit" name="submit" value="submit">
+           &nbsp; &nbsp;
+
+           <input type="reset" name="reset" value="reset">
+            
+        </form>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested-table</title>
+</head>
+<body>
+    <!-- Nested-table-start -->
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <td>Column 1</td>
+            <td colspan="2">Column 2</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Colspan column</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center">Row cell</td>
+            <td  align="center">Cell 2</td>
+        </tr>
+            <td>
+                <table border="1" cellpadding="10" cellspacing="5" bgcolor="aqua">
+                    <tr>
+                        <td>inner data cell 1</td>
+                        <td>inner data cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>inner data cell 1</td>
+                        <td>
+                            <table border="1" cellpadding="10" cellspacing="5" bgcolor="red">
+                                <tr>
+                                    <td><font color="yellow">inner most col head-1</font></td>
+                                    <td><font color="yellow">inner most col head-2</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font color="yellow">inner data cell-1</font></td>
+                                    <td><font color="yellow">inner data cell-2</font></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

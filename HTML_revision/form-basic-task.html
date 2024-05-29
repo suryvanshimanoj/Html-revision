@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-basic-task</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form_Task</legend>
+        <form action="" method="post">
+            <label for="fn">Fname:</label>
+            <input type="text" name="Fname" id="fn" placeholder="Fname" required >
+
+            <label for="Ln">Lname:</label>
+            <input type="text" name="Lname" id="Ln" placeholder="Lname" required >
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" placeholder="password" required min="5" max="10">
+
+            <label for="mn">Mobile no:</label>
+            <input type="text" name="Mobile" id="mn" required>
+
+            <br><br>
+            <label for="">Address:</label>
+            <textarea name="" id="" cols="15" rows="3" placeholder="Text here"></textarea>
+
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="g">Gender:</label>
+            Male<input type="radio" name="gender" id="g" value="Male">
+            Female<input type="radio" name="gender" id="g" value="Female">
+
+
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <label for="lug">Language:</label>
+            <input type="checkbox" name="language" id="lug" value="guj">Gujrati
+            <input type="checkbox" name="language" id="lug" value="eng.">English
+            <input type="checkbox" name="language" id="lug" value="hindi" checked>Hindi
+
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <label for="">City:</label>
+            <select name="City" id="">
+                <option value="" selected disabled>Select city</option>
+                <option value="delhi">Delhi</option>
+                <option value="Ahemdabad">Ahemdabad</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="pune">Pune</option>
+            </select>
+
+            &nbsp; &nbsp;&nbsp; &nbsp;
+
+            <label for="">Range:</label>
+            <input type="range" name="" id="">
+
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <br><br>
+
+            Upload file:
+            <input type="file" name="" id="">
+
+            &nbsp; &nbsp;
+
+            <label for="dob">DOB:</label>
+            <input type="date" name="" id="">
+            
+            &nbsp; &nbsp;
+
+            <label for="">Date/Time:</label>
+            <input type="datetime-local" name="" id="">
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            
+        </form>
+    </fieldset>
+</body>
+</html>
